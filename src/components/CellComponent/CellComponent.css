@@ -1,0 +1,20 @@
+.cell {
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: white;
+}
+
+.cell.selected {
+  background-color: lightblue;
+}
+
+.cell.deleted {
+  background-color: white;
+  color: lightgray;
+}
